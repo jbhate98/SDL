@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.sdl_project">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="E-PRESCIPTION"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signin" />
+        <activity android:name=".doctor_GUI" />
+        <activity android:name=".Patient_signin" />
+        <activity android:name=".doctor_sigin" />
+        <activity android:name=".Chemist_signin" />
+        <activity android:name=".login" />
+        <activity android:name=".login_verification" />
+        <activity android:name=".Medicine" />
+        <activity android:name=".patient_GUI" />
+        <activity android:name=".chemist_GUI" />
+        <activity android:name=".Prev_pres"></activity>
+    </application>
+
+</manifest>
