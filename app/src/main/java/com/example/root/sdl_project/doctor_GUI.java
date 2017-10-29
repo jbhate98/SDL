@@ -54,7 +54,7 @@ public class doctor_GUI extends AppCompatActivity {
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         Ptname= (EditText) findViewById(R.id.et_ptname);
         Ptemail=(EditText)findViewById(R.id.et_ptemail);
-      //  imageView=(ImageView)findViewById(R.id.imageView);
+
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat mdformat = new SimpleDateFormat("yyyy-MM-dd ");
         Date = mdformat.format(calendar.getTime());
